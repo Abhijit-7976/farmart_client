@@ -59,11 +59,13 @@ const FileCard = ({
 
   return (
     <div className="file">
-      <img
-        src={fileIcon}
-        alt="file-icon"
-      />
-      <span className="file_name">{fileName}</span>
+      <div className="file_name_box">
+        <img
+          src={fileIcon}
+          alt="file-icon"
+        />
+        <span className="file_name">{fileName}</span>
+      </div>
       <div className="url_box">
         <span className="file_url">{shortUrl}</span>
         <button
