@@ -1,8 +1,25 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Farmart Assignment App
 
-Currently, two official plugins are available:
+User can upload a file at a time and get short link for downloading the uploaded file.
+User can delete the files shwon in the dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+## Deployed Link
+
+https://elaborate-marzipan-b473a7.netlify.app/
+
+
+
+## Tech Stack
+
+**Client:** React, Scss, Netlify
+
+**Server:** Spring Boot, Amazon S3, Amazon RDS (MySQL), Railway 
+
+
+## Note
+
+SInce I have used free hosting services (Netlify and Railways). Therefore, application is a little bit slower.
